@@ -14,3 +14,11 @@ float64 planning_time
 
 # Error code - encodes the overall reason for failure
 MoveItErrorCodes error_code
+
+#cost
+float64 cost
+
+#iterations for optimal ompl and optimization planners or hold number of expansions for SBPL planners
+int64 iterations
+
+

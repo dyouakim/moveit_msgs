@@ -19,3 +19,9 @@ float64[] processing_time
 
 # Status at the end of this plan
 MoveItErrorCodes error_code
+
+#cost
+float64[] cost
+
+#iterations for optimal ompl and optimization planners or hold number of expansions for SBPL planners
+int64[] iterations

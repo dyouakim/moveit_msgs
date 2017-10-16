@@ -1,2 +1,3 @@
 trajectory_msgs/JointTrajectory joint_trajectory
 trajectory_msgs/MultiDOFJointTrajectory multi_dof_joint_trajectory
+geometry_msgs/PoseStamped[]  ee_pose
