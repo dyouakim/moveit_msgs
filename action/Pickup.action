@@ -49,6 +49,8 @@ float64 allowed_planning_time
 # Planning options
 PlanningOptions planning_options
 
+# Parameters for the workspace that the planner should work inside
+WorkspaceParameters workspace_parameters
 ---
 
 # The overall result of the pickup attempt
