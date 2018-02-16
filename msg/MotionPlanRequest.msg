@@ -45,3 +45,5 @@ float64 max_acceleration_scaling_factor
 
 int32 repair_index
 
+int32 request_id
+
