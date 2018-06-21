@@ -37,3 +37,5 @@ byte MOVE=3
 
 # Operation to be performed
 byte operation
+
+bool is_manip_obj
