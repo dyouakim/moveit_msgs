@@ -47,3 +47,6 @@ int32 repair_index
 
 int32 request_id
 
+# This field is used to define if the request is navigation (--> 0) or manipulation (--> 1)
+int32 request_type
+
