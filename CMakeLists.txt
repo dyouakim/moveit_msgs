@@ -53,6 +53,10 @@ VisibilityConstraint.msg
 WorkspaceParameters.msg
 KinematicSolverInfo.msg
 PositionIKRequest.msg
+CollisionContact.msg
+CollisionCheckResponse.msg
+ActionState.msg
+PlanningData.msg
 )
 
 set(SRV_FILES

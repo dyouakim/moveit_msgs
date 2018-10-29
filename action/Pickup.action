@@ -51,6 +51,17 @@ PlanningOptions planning_options
 
 # Parameters for the workspace that the planner should work inside
 WorkspaceParameters workspace_parameters
+
+int32 repair_index
+
+int32 request_id
+
+# This field is used to define if the request is navigation (--> 0) or manipulation (--> 1)
+int32 request_type
+
+# The number of times this plan is to be computed. Shortest solution
+# will be reported.
+int32 num_planning_attempts
 ---
 
 # The overall result of the pickup attempt
