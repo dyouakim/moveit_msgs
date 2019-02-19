@@ -57,6 +57,7 @@ CollisionContact.msg
 CollisionCheckResponse.msg
 ActionState.msg
 PlanningData.msg
+SolutionState.msg
 )
 
 set(SRV_FILES
